@@ -9008,6 +9008,207 @@ Error generating stack: ` + i.message + `
                 "srcW": 1600,
                 "alt": "تصویر ۵ از اجرای نمایش «آرش (اجرای گروهی)»، نخستین جشنواره"
             },
+            // ===== تصاویر اختتامیه و برگزیدگان نخستین جشنواره =====
+            "Awards-1": {
+                "src": "./assets/Awards-1.webp",
+                "sm": "./assets/Awards-1-small.webp",
+                "full": "./assets/Awards-1.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱ از آیین اختتامیهٔ نخستین جشنواره"
+            },
+            "Awards-2": {
+                "src": "./assets/Awards-2.webp",
+                "sm": "./assets/Awards-2-small.webp",
+                "full": "./assets/Awards-2.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1067,
+                "h": 1600,
+                "srcW": 1067,
+                "alt": "تصویر ۲ از آیین اختتامیهٔ نخستین جشنواره"
+            },
+            "Awards-3": {
+                "src": "./assets/Awards-3.webp",
+                "sm": "./assets/Awards-3-small.webp",
+                "full": "./assets/Awards-3.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۳ از آیین اختتامیهٔ نخستین جشنواره"
+            },
+            "Awards-4": {
+                "src": "./assets/Awards-4.webp",
+                "sm": "./assets/Awards-4-small.webp",
+                "full": "./assets/Awards-4.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1067,
+                "h": 1600,
+                "srcW": 1067,
+                "alt": "تصویر ۴ از آیین اختتامیهٔ نخستین جشنواره"
+            },
+            "Awards-5": {
+                "src": "./assets/Awards-5.webp",
+                "sm": "./assets/Awards-5-small.webp",
+                "full": "./assets/Awards-5.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۵ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-6": {
+                "src": "./assets/Awards-6.webp",
+                "sm": "./assets/Awards-6-small.webp",
+                "full": "./assets/Awards-6.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۶ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-7": {
+                "src": "./assets/Awards-7.webp",
+                "sm": "./assets/Awards-7-small.webp",
+                "full": "./assets/Awards-7.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۷ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-8": {
+                "src": "./assets/Awards-8.webp",
+                "sm": "./assets/Awards-8-small.webp",
+                "full": "./assets/Awards-8.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۸ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-9": {
+                "src": "./assets/Awards-9.webp",
+                "sm": "./assets/Awards-9-small.webp",
+                "full": "./assets/Awards-9.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۹ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-10": {
+                "src": "./assets/Awards-10.webp",
+                "sm": "./assets/Awards-10-small.webp",
+                "full": "./assets/Awards-10.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۰ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-11": {
+                "src": "./assets/Awards-11.webp",
+                "sm": "./assets/Awards-11-small.webp",
+                "full": "./assets/Awards-11.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۱ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-12": {
+                "src": "./assets/Awards-12.webp",
+                "sm": "./assets/Awards-12-small.webp",
+                "full": "./assets/Awards-12.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۲ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-13": {
+                "src": "./assets/Awards-13.webp",
+                "sm": "./assets/Awards-13-small.webp",
+                "full": "./assets/Awards-13.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۳ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-14": {
+                "src": "./assets/Awards-14.webp",
+                "sm": "./assets/Awards-14-small.webp",
+                "full": "./assets/Awards-14.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۴ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-15": {
+                "src": "./assets/Awards-15.webp",
+                "sm": "./assets/Awards-15-small.webp",
+                "full": "./assets/Awards-15.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۵ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-16": {
+                "src": "./assets/Awards-16.webp",
+                "sm": "./assets/Awards-16-small.webp",
+                "full": "./assets/Awards-16.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۶ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-17": {
+                "src": "./assets/Awards-17.webp",
+                "sm": "./assets/Awards-17-small.webp",
+                "full": "./assets/Awards-17.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۷ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-18": {
+                "src": "./assets/Awards-18.webp",
+                "sm": "./assets/Awards-18-small.webp",
+                "full": "./assets/Awards-18.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۸ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-19": {
+                "src": "./assets/Awards-19.webp",
+                "sm": "./assets/Awards-19-small.webp",
+                "full": "./assets/Awards-19.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۱۹ از برگزیدگان نخستین جشنواره"
+            },
+            "Awards-20": {
+                "src": "./assets/Awards-20.webp",
+                "sm": "./assets/Awards-20-small.webp",
+                "full": "./assets/Awards-20.jpg",
+                "blur": "./assets/shared-blur.webp",
+                "w": 1600,
+                "h": 1067,
+                "srcW": 1600,
+                "alt": "تصویر ۲۰ از برگزیدگان نخستین جشنواره"
+            },
             "Festival-1": {
                 "src": "./assets/Festival-1.webp",
                 "sm": "./assets/Festival-1-small.webp",
@@ -10785,12 +10986,33 @@ Error generating stack: ` + i.message + `
         {"id": "festival-e1-7", "type": "image", "category": "festival", "edition": "edition-1", "media": "Festival-7", "caption": "نخستین جشنواره نمایشنامه‌خوانی هنگام جادویی", "all": false},
         {"id": "festival-e1-8", "type": "image", "category": "festival", "edition": "edition-1", "media": "Festival-8", "caption": "نخستین جشنواره نمایشنامه‌خوانی هنگام جادویی", "all": false},
         {"id": "festival-e1-9", "type": "image", "category": "festival", "edition": "edition-1", "media": "Festival-9", "caption": "نخستین جشنواره نمایشنامه‌خوانی هنگام جادویی", "all": false},
+        // ===== تصاویر برندگان: اختتامیه و برگزیدگان (۴ تصویر اول در «همه تصاویر» هم می‌آیند) =====
+        {"id": "winners-e1-1", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-1", "caption": "تصاویر اختتامیه"},
+        {"id": "winners-e1-2", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-2", "caption": "تصاویر اختتامیه"},
+        {"id": "winners-e1-3", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-3", "caption": "تصاویر اختتامیه"},
+        {"id": "winners-e1-4", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-4", "caption": "تصاویر اختتامیه"},
+        {"id": "winners-e1-5", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-5", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-6", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-6", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-7", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-7", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-8", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-8", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-9", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-9", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-10", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-10", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-11", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-11", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-12", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-12", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-13", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-13", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-14", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-14", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-15", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-15", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-16", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-16", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-17", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-17", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-18", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-18", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-19", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-19", "caption": "تصاویر برگزیدگان", "all": false},
+        {"id": "winners-e1-20", "type": "image", "category": "winners", "edition": "edition-1", "media": "Awards-20", "caption": "تصاویر برگزیدگان", "all": false},
         {"id": "show-Arash-sadoghian-3", "type": "image", "category": "shows", "edition": "edition-1", "media": "Arash-sadoghian-3", "work": "edition-1-work-1", "groupTitle": "آرش (کارگردان: وحید صدوقیان)", "caption": "نمایش «آرش (کارگردان: وحید صدوقیان)»، نخستین جشنواره"},
         {"id": "show-Arash-sadoghian-4", "type": "image", "category": "shows", "edition": "edition-1", "media": "Arash-sadoghian-4", "work": "edition-1-work-1", "groupTitle": "آرش (کارگردان: وحید صدوقیان)", "caption": "نمایش «آرش (کارگردان: وحید صدوقیان)»، نخستین جشنواره"},
         {"id": "show-Arash-sadoghian-5", "type": "image", "category": "shows", "edition": "edition-1", "media": "Arash-sadoghian-5", "work": "edition-1-work-1", "groupTitle": "آرش (کارگردان: وحید صدوقیان)", "caption": "نمایش «آرش (کارگردان: وحید صدوقیان)»، نخستین جشنواره", "all": false},
         {"id": "show-dejh-Dokhtar-3", "type": "image", "category": "shows", "edition": "edition-1", "media": "dejh-Dokhtar-3", "work": "edition-1-work-2", "groupTitle": "دژ دختر", "caption": "نمایش «دژ دختر»، نخستین جشنواره"},
-        {"id": "show-dejh-Dokhtar-4", "type": "image", "category": "shows", "edition": "edition-1", "media": "dejh-Dokhtar-4", "work": "edition-1-work-2", "groupTitle": "دژ دختر", "caption": "نمایش «دژ دختر»، نخستین جشنواره"},
-        {"id": "show-dejh-Dokhtar-5", "type": "image", "category": "shows", "edition": "edition-1", "media": "dejh-Dokhtar-5", "work": "edition-1-work-2", "groupTitle": "دژ دختر", "caption": "نمایش «دژ دختر»، نخستین جشنواره", "all": false},
+        {"id": "show-dejh-Dokhtar-5", "type": "image", "category": "shows", "edition": "edition-1", "media": "dejh-Dokhtar-5", "work": "edition-1-work-2", "groupTitle": "دژ دختر", "caption": "نمایش «دژ دختر»، نخستین جشنواره"},
+        {"id": "show-dejh-Dokhtar-4", "type": "image", "category": "shows", "edition": "edition-1", "media": "dejh-Dokhtar-4", "work": "edition-1-work-2", "groupTitle": "دژ دختر", "caption": "نمایش «دژ دختر»، نخستین جشنواره", "all": false},
         {"id": "show-Kabootar-3", "type": "image", "category": "shows", "edition": "edition-1", "media": "Kabootar-3", "work": "edition-1-work-3", "groupTitle": "کبوتری ناگهان", "caption": "نمایش «کبوتری ناگهان»، نخستین جشنواره"},
         {"id": "show-Kabootar-4", "type": "image", "category": "shows", "edition": "edition-1", "media": "Kabootar-4", "work": "edition-1-work-3", "groupTitle": "کبوتری ناگهان", "caption": "نمایش «کبوتری ناگهان»، نخستین جشنواره"},
         {"id": "show-Kabootar-5", "type": "image", "category": "shows", "edition": "edition-1", "media": "Kabootar-5", "work": "edition-1-work-3", "groupTitle": "کبوتری ناگهان", "caption": "نمایش «کبوتری ناگهان»، نخستین جشنواره", "all": false},
@@ -10818,7 +11040,7 @@ Error generating stack: ` + i.message + `
             edition: "edition-2",
             media: "poster-edition-2",
             caption: "پوستر فراخوان دومین جشنواره"
-        }, {"id": "poster-e2-1", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-1", "caption": "پوستر نمایش چهار صندوق"}, {"id": "poster-e2-2", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-2", "caption": "پوستر نمایش خون پارس"}, {"id": "poster-e2-3", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-3", "caption": "پوستر نمایش دو متر در دو متر جنگ"}, {"id": "poster-e2-4", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-4", "caption": "پوستر نمایش روشنک"}, {"id": "poster-e2-5", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-5", "caption": "پوستر نمایش مرگ یزدگرد"}, {"id": "poster-e2-6", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-6", "caption": "پوستر نمایش ساعت ۱۰ شب"}, {"id": "poster-e2-7", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-7", "caption": "پوستر نمایش ریشه است، نه زنجیر"}, {"id": "poster-e2-8", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-8", "caption": "پوستر نمایش سنگ، کاغذ، قیچی"}, {"id": "poster-e2-9", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-9", "caption": "پوستر نمایش برفک"}, {"id": "poster-e2-10", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-10", "caption": "پوستر نمایش زبان تمشک‌های وحشی"}, {"id": "poster-e2-11", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-11", "caption": "پوستر نمایش هیزم"}, {"id": "poster-e2-12", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-12", "caption": "پوستر نمایش سهراب‌کشی"}, {"id": "poster-e2-13", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-13", "caption": "پوستر نمایش من زنده‌ام"}, {"id": "poster-e2-14", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-14", "caption": "پوستر نمایش چشم‌های بسته از خواب"}, {"id": "poster-e2-15", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-15", "caption": "پوستر نمایش Love Me Do"}, tt("winners-1", "winners", "edition-1", 1, "[شرح تصویر: اهدای جوایز]"), tt("shows-3", "shows", "edition-2", 3 / 2, "[شرح تصویر اجرا]"), tt("festival-3", "festival", "edition-2", 4 / 5, "[شرح تصویر جشنواره]"), tt("winners-2", "winners", "edition-2", 3 / 2, "[شرح تصویر برگزیدگان]"), tt("shows-4", "shows", "edition-2", 1, "[شرح تصویر اجرا]"), tt("festival-4", "festival", "edition-2", 3 / 2, "[شرح تصویر پشت صحنه]")],
+        }, {"id": "poster-e2-1", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-1", "caption": "پوستر نمایش چهار صندوق"}, {"id": "poster-e2-2", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-2", "caption": "پوستر نمایش خون پارس"}, {"id": "poster-e2-3", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-3", "caption": "پوستر نمایش دو متر در دو متر جنگ"}, {"id": "poster-e2-4", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-4", "caption": "پوستر نمایش روشنک"}, {"id": "poster-e2-5", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-5", "caption": "پوستر نمایش مرگ یزدگرد"}, {"id": "poster-e2-6", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-6", "caption": "پوستر نمایش ساعت ۱۰ شب"}, {"id": "poster-e2-7", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-7", "caption": "پوستر نمایش ریشه است، نه زنجیر"}, {"id": "poster-e2-8", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-8", "caption": "پوستر نمایش سنگ، کاغذ، قیچی"}, {"id": "poster-e2-9", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-9", "caption": "پوستر نمایش برفک"}, {"id": "poster-e2-10", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-10", "caption": "پوستر نمایش زبان تمشک‌های وحشی"}, {"id": "poster-e2-11", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-11", "caption": "پوستر نمایش هیزم"}, {"id": "poster-e2-12", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-12", "caption": "پوستر نمایش سهراب‌کشی"}, {"id": "poster-e2-13", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-13", "caption": "پوستر نمایش من زنده‌ام"}, {"id": "poster-e2-14", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-14", "caption": "پوستر نمایش چشم‌های بسته از خواب"}, {"id": "poster-e2-15", "type": "image", "category": "posters", "edition": "edition-2", "media": "work-e2-15", "caption": "پوستر نمایش Love Me Do"}, tt("shows-3", "shows", "edition-2", 3 / 2, "[شرح تصویر اجرا]"), tt("festival-3", "festival", "edition-2", 4 / 5, "[شرح تصویر جشنواره]"), tt("shows-4", "shows", "edition-2", 1, "[شرح تصویر اجرا]"), tt("festival-4", "festival", "edition-2", 3 / 2, "[شرح تصویر پشت صحنه]")],
         Hjv = Nr.filter(x => !x.previewOnly),
         HjAll = Hjv.filter(x => x.all !== !1),
         HjMarquee = HjAll.filter(x => x.media && !/^work-e2-/.test(x.media) && (x.category === "posters" || /-(3)$/.test(x.media) || /^Festival-[1-3]$/.test(x.media))),
@@ -10851,12 +11073,25 @@ Error generating stack: ` + i.message + `
             type: "video",
             category: "videos",
             edition: "edition-2",
-            title: "تیزر دومین جشنواره",
+            title: "آنونس دومین جشنواره",
             duration: "[0:32]",
             thumb: "poster-edition-2",
             video: {
                 kind: "file",
                 src: "./assets/announcement-edition-2.mp4"
+            }
+        }, {
+            // تیزر دورهٔ دوم: فایل را با همین نام در پوشهٔ assets بگذارید
+            id: "video-edition-2-teaser",
+            type: "video",
+            category: "videos",
+            edition: "edition-2",
+            title: "تیزر دومین جشنواره",
+            duration: "[مدت ویدئو]",
+            thumb: "poster-edition-2",
+            video: {
+                kind: "file",
+                src: "./assets/teaser-edition-2.mp4"
             }
         }],
         Nd = [{
@@ -12212,6 +12447,79 @@ Error generating stack: ` + i.message + `
         })
     }
     a(HjGroups, "GalleryGroups");
+
+    // شعار جشنواره: نور صحنه روشن می‌شود و جمله کلمه‌به‌کلمه پدیدار می‌شود
+    var HjMotes = [[46, 0, 9, 3], [52, 2.4, 11, 2], [43, 4.1, 10, 2], [57, 1.2, 12, 3], [49, 5.6, 9.5, 2], [39, 3.3, 13, 2], [61, 6.8, 10.5, 2], [54, 7.9, 12.5, 3], [45, 9.2, 11, 2], [50, 8.4, 9, 2], [36, 1.8, 14, 2], [64, 4.8, 13, 2]];
+
+    function HjSlogan() {
+        let r = (0, mm.useRef)(null),
+            [v, sv] = (0, mm.useState)(!1);
+        (0, mm.useEffect)(() => {
+            let el = r.current;
+            if (!el) return;
+            if (typeof IntersectionObserver > "u" || Zt()) {
+                sv(!0);
+                return
+            }
+            let io = new IntersectionObserver(e => {
+                e[0].isIntersecting && (sv(!0), io.disconnect())
+            }, {
+                threshold: .3
+            });
+            return io.observe(el), () => io.disconnect()
+        }, []);
+        return (0, xl.jsxs)("section", {
+            ref: r,
+            className: `section stage--deep slogan-band ${v ? "is-lit" : ""}`,
+            "aria-label": "شعار جشنواره",
+            children: [(0, xl.jsx)("span", {
+                className: "slogan-band__beam",
+                "aria-hidden": "true"
+            }), (0, xl.jsx)("span", {
+                className: "slogan-band__dust",
+                "aria-hidden": "true",
+                children: HjMotes.map(([x, d, t, z], i) => (0, xl.jsx)("i", {
+                    style: {
+                        "--x": `${x}%`,
+                        "--d": `${d}s`,
+                        "--t": `${t}s`,
+                        "--z": `${z}px`,
+                        "--dx": `${(i % 2 ? 1 : -1) * (6 + i % 4 * 5)}px`
+                    }
+                }, i))
+            }), (0, xl.jsx)("span", {
+                className: "slogan-band__pool",
+                "aria-hidden": "true"
+            }), (0, xl.jsxs)("div", {
+                className: "container slogan-band__inner",
+                children: [(0, xl.jsx)("p", {
+                    className: "t-label slogan-band__eyebrow",
+                    children: "شعار جشنواره"
+                }), (0, xl.jsxs)("blockquote", {
+                    className: "slogan-band__line",
+                    children: [(0, xl.jsx)("span", {
+                        className: "slogan-band__word-lead",
+                        children: "هنگام؛"
+                    }), (0, xl.jsx)("span", {
+                        className: "slogan-band__breath",
+                        "aria-hidden": "true"
+                    }), (0, xl.jsx)("span", {
+                        className: "slogan-band__words",
+                        children: ["آن", "هنگامِ", "جادویی‌ست"].map((w, i) => (0, xl.jsxs)(xl.Fragment, {
+                            children: [i ? " " : null, (0, xl.jsx)("span", {
+                                className: "slogan-band__word",
+                                style: {
+                                    "--i": i
+                                },
+                                children: w
+                            })]
+                        }, i))
+                    })]
+                })]
+            })]
+        })
+    }
+    a(HjSlogan, "Slogan");
     var M = $(H());
 
     function qd() {
@@ -12713,34 +13021,7 @@ Error generating stack: ` + i.message + `
                         }, c))
                     })]
                 })
-            }), (0, se.jsxs)("section", {
-                className: "section stage--deep slogan-band",
-                "aria-label": "هنگام; آن هنگام جادویی‌ست",
-                children: [(0, se.jsx)("span", {
-                    className: "slogan-band__beam",
-                    "aria-hidden": "true"
-                }), (0, se.jsxs)("div", {
-                    className: "container",
-                    children: [(0, se.jsx)(W, {
-                        as: "p",
-                        variant: "fade",
-                        className: "t-label",
-                        style: { fontSize: "3rem" },
-                        children: "هنگام; آن هنگام جادویی‌ست"
-                    }), (0, se.jsx)(W, {
-                        as: "blockquote",
-                        variant: "mask",
-                        className: "slogan-band__quote",
-                        children: [(0, se.jsx)("span", {
-                            className: "slogan-band__lead",
-                            children: "هنگام؛"
-                        }), (0, se.jsx)("span", {
-                            className: "slogan-band__rest",
-                            children: "آن هنگامِ جادویی‌ست"
-                        })]
-                    })]
-                })]
-            }), (0, se.jsx)("section", {
+            }), (0, se.jsx)(HjSlogan, {}), (0, se.jsx)("section", {
                 className: "section paper",
                 "aria-labelledby": "history",
                 children: (0, se.jsxs)("div", {

@@ -9973,3 +9973,211 @@ html[data-ed="1"] .subnav {
         color: var(--text-faint)
     }
 }
+
+
+/* ===== شعار جشنواره (صفحهٔ درباره): نور صحنه + پدیدار شدن کلمه‌به‌کلمه ===== */
+.slogan-band {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    text-align: center;
+    padding-block: clamp(4.5rem, 12vw, 9rem)
+}
+
+.slogan-band__beam {
+    position: absolute;
+    inset: -6% 0 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgb(243 217 164 / .26), rgb(233 186 119 / .1) 60%, transparent 92%);
+    clip-path: polygon(46% 0, 54% 0, 82% 100%, 18% 100%);
+    transform-origin: 50% 0;
+    opacity: 0
+}
+
+.slogan-band__pool {
+    position: absolute;
+    inset: auto 10% 4% 10%;
+    height: 38%;
+    z-index: -1;
+    background: radial-gradient(50% 50% at 50% 60%, rgb(233 186 119 / .16), transparent 70%);
+    opacity: 0;
+    transition: opacity 1.6s var(--ease-soft) .5s
+}
+
+.slogan-band__dust {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    clip-path: polygon(46% 0, 54% 0, 82% 100%, 18% 100%);
+    pointer-events: none
+}
+
+.slogan-band__dust i {
+    position: absolute;
+    bottom: 6%;
+    left: var(--x);
+    width: var(--z);
+    height: var(--z);
+    border-radius: 50%;
+    background: #f6e3bb;
+    box-shadow: 0 0 6px rgb(246 227 187 / .8);
+    opacity: 0
+}
+
+.slogan-band.is-lit .slogan-band__dust i {
+    animation: slogan-mote var(--t) linear var(--d) infinite
+}
+
+.slogan-band__inner {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    gap: var(--s-4)
+}
+
+.slogan-band__eyebrow {
+    color: var(--accent);
+    opacity: 0;
+    transform: translateY(.5rem);
+    transition: opacity .8s var(--ease-soft) .2s, transform .8s var(--ease-out) .2s
+}
+
+.slogan-band__line {
+    display: grid;
+    justify-items: center;
+    gap: .1em;
+    margin: 0;
+    font-family: var(--font-script);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--light-100)
+}
+
+.slogan-band__word-lead {
+    display: block;
+    padding: .05em .15em .12em;
+    font-size: clamp(3.6rem, 15vw, 7.5rem);
+    letter-spacing: 0;
+    background: linear-gradient(100deg, #b98543 0%, #e9c584 30%, #fff4dc 48%, #e9c584 62%, #b98543 100%);
+    background-size: 260% 100%;
+    background-position: 100% 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 .08em .5em rgb(233 186 119 / .22));
+    clip-path: inset(-25% -6% -25% 100%);
+    transition: clip-path 1.3s var(--ease-out) .35s
+}
+
+.slogan-band__breath {
+    display: block;
+    width: clamp(3rem, 12vw, 6rem);
+    height: 2px;
+    margin-block: .15em .35em;
+    border-radius: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    transform: scaleX(0);
+    transition: transform 1s var(--ease-out) 1.25s
+}
+
+.slogan-band__words {
+    display: block;
+    max-width: 100%;
+    font-size: clamp(1.75rem, 7.2vw, 3.4rem);
+    font-weight: 500;
+    text-wrap: balance
+}
+
+.slogan-band__word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(.45em);
+    filter: blur(6px);
+    transition: opacity .9s var(--ease-soft), transform .9s var(--ease-out), filter .9s var(--ease-soft);
+    transition-delay: calc(1.45s + var(--i) * .28s)
+}
+
+/* حالت روشن */
+.slogan-band.is-lit .slogan-band__beam {
+    animation: slogan-beam-on 1.3s steps(1, end) forwards, slogan-beam-breathe 8s ease-in-out 1.3s infinite
+}
+
+.slogan-band.is-lit .slogan-band__pool,
+.slogan-band.is-lit .slogan-band__eyebrow {
+    opacity: 1;
+    transform: none
+}
+
+.slogan-band.is-lit .slogan-band__word-lead {
+    clip-path: inset(-25% -6% -25% -6%);
+    animation: slogan-glint 7s ease-in-out 2.4s infinite
+}
+
+.slogan-band.is-lit .slogan-band__breath {
+    transform: scaleX(1)
+}
+
+.slogan-band.is-lit .slogan-band__word {
+    opacity: .94;
+    transform: none;
+    filter: none
+}
+
+@keyframes slogan-beam-on {
+    0% { opacity: 0 }
+    12% { opacity: .55 }
+    20% { opacity: .1 }
+    34% { opacity: .8 }
+    44% { opacity: .35 }
+    60%, 100% { opacity: 1 }
+}
+
+@keyframes slogan-beam-breathe {
+    0%, 100% { opacity: 1; transform: rotate(0deg) }
+    30% { opacity: .82; transform: rotate(1.2deg) }
+    70% { opacity: .92; transform: rotate(-1deg) }
+}
+
+@keyframes slogan-glint {
+    0% { background-position: 100% 0 }
+    45%, 100% { background-position: 0% 0 }
+}
+
+@keyframes slogan-mote {
+    0% { transform: translate(0, 0); opacity: 0 }
+    15% { opacity: .75 }
+    80% { opacity: .35 }
+    100% { transform: translate(var(--dx), -26rem); opacity: 0 }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .slogan-band__beam,
+    .slogan-band__pool,
+    .slogan-band__eyebrow,
+    .slogan-band__word,
+    .slogan-band__word-lead,
+    .slogan-band__breath {
+        animation: none !important;
+        transition: none !important;
+        opacity: 1;
+        transform: none;
+        filter: none;
+        clip-path: none
+    }
+
+    .slogan-band__word-lead {
+        filter: drop-shadow(0 .08em .5em rgb(233 186 119 / .22))
+    }
+
+    .slogan-band__dust {
+        display: none
+    }
+}
+
+.slogan-band__eyebrow:after {
+    content: "";
+    width: 1.5rem;
+    height: 1px;
+    background: currentColor;
+    opacity: .7
+}
