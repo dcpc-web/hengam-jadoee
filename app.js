@@ -9494,6 +9494,13 @@ Error generating stack: ` + i.message + `
             let he = fe.currentTarget.getBoundingClientRect();
             C(`${(fe.clientX-he.left)/he.width*100}% ${(fe.clientY-he.top)/he.height*100}%`)
         }, "onPointerMove"), ne = K.media;
+        (0, mn.useEffect)(() => {
+            if (L < 2) return;
+            let t = setTimeout(() => {
+                HjPreload(s[(c + 1) % L]?.media), HjPreload(s[(c - 1 + L) % L]?.media)
+            }, 400);
+            return () => clearTimeout(t)
+        }, [c, L, s]);
         return (0, _e.jsxs)(Ms, {
             open: !0,
             onClose: d,
@@ -9581,25 +9588,35 @@ Error generating stack: ` + i.message + `
     }
     a(jd, "Lightbox");
 
+    var HjHiCache = new Set,
+        HjPreload = a(m => {
+            if (!m?.full || m.full === m.src || HjHiCache.has(m.full)) return;
+            let im = new Image;
+            im.decoding = "async", im.onload = () => HjHiCache.add(m.full), im.src = m.full
+        }, "preloadFull");
+
     function HjLbImg({
         m: s,
         zoom: o,
         origin: d
     }) {
-        let wantHi = !!s.full && s.full !== s.src && (o || window.matchMedia("(min-width: 900px)").matches),
-            [c, g] = (0, mn.useState)(!1);
+        // نسخهٔ JPG باکیفیت روی همهٔ دستگاه‌ها (موبایل و دسکتاپ) لود می‌شود؛
+        // تا وقتی کامل نشده، همان WebP نمایش داده می‌شود و اگر JPG نبود، WebP می‌ماند
+        let wantHi = !!s.full && s.full !== s.src,
+            [c, g] = (0, mn.useState)(() => !!s.full && HjHiCache.has(s.full)),
+            [er, ser] = (0, mn.useState)(!1);
         (0, mn.useEffect)(() => {
             if (!wantHi || c) return;
             let im = new Image;
-            im.decoding = "async", im.onload = () => g(!0), im.src = s.full;
+            im.decoding = "async", im.onload = () => (HjHiCache.add(s.full), g(!0)), im.onerror = () => ser(!0), im.src = s.full;
             return () => {
-                im.onload = null
+                im.onload = null, im.onerror = null
             }
         }, [wantHi, c, s.full]);
         return (0, _e.jsx)("img", {
             src: c ? s.full : s.src,
             alt: s.alt,
-            className: c ? "is-hi" : "is-lo",
+            className: c ? "is-hi" : wantHi && !er ? "is-lo is-loading" : "is-lo",
             style: {
                 transformOrigin: d
             },

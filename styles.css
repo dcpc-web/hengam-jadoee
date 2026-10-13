@@ -10181,3 +10181,45 @@ html[data-ed="1"] .subnav {
     background: currentColor;
     opacity: .7
 }
+
+/* ===== نمایشگر تصویر: نسخهٔ باکیفیت روی موبایل ===== */
+.lightbox__zoomable img {
+    max-width: 100%;
+    height: auto
+}
+
+.lightbox__zoomable img.is-hi {
+    animation: lb-sharpen .35s var(--ease-soft)
+}
+
+@keyframes lb-sharpen {
+    from { opacity: .85 }
+}
+
+.lightbox__zoomable {
+    position: relative
+}
+
+.lightbox__zoomable:has(img.is-loading):after {
+    content: "";
+    position: absolute;
+    inset-inline-start: .75rem;
+    bottom: .75rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    border: 2px solid rgb(251 239 217 / .35);
+    border-top-color: #fbefd9;
+    animation: lb-spin .8s linear infinite;
+    pointer-events: none
+}
+
+@keyframes lb-spin {
+    to { transform: rotate(1turn) }
+}
+
+@media (max-width: 899px) {
+    .lightbox__zoomable img {
+        touch-action: pinch-zoom
+    }
+}
